@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    background-color: #000813;
+    color: white;
+    text-align: center;
+  }
+  
+  :root {
+    --one: #001c30;
+    --two: #176b87;
+    --three: #64ccc5;
+    --four: #dafffb;
+    --oren: #d7a464;
+  }
+  
+  h1 {
+    text-align: center;
+    line-height: 60px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(250, 250, 250, 0.15);
+    font-size: 36px;
+    font-weight: 500;
+    color: #ffffff;
+  }
+  
+  /* navbar */
+  /* navbar kiri */
+  .navbar {
+    display: flex;
+    /* background-color: #021631; */
+    padding: 17px 5%;
+    color: white;
+    box-shadow: 1px 1px 15px rgba(0, 204, 250, 0.3);
+  }
+  
+  .navbar .navbarKiri {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  
+  .navbar .navbarKiri img {
+    width: 90px;
+  }
+  
+  .navbar .navbarKiri p {
+    margin-top: 13px;
+    text-shadow: 1px 1px 2px #07d2ff5c;
+  }
+  
+  /* navbarKanan */
+  
+  .navbarKanan a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  
+  /* .navbarKanan a:nth-child(5) {
+      border: 1px solid white;
+      padding: 5px;
+      border-radius: 10%;
+  } */
+  
+  /* container start*/
+  
+  form ul li {
+    list-style: none;
+  }
+  
+  form ul li input {
+    background-color: #176b87;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  form ul li label {
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  /* container end */
+  
+  .navbarKanan a:hover {
+    color: var(--oren);
+  }
+  
+  .btn-1,
+  .btn-1 *,
+  .btn-1 :after,
+  .btn-1 :before,
+  .btn-1:after,
+  .btn-1:before {
+    border: 0 solid;
+    box-sizing: border-box;
+  }
+  .btn-1 {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: button;
+    background-color: #000;
+    background-image: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+      Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+      Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 100%;
+    font-weight: 600;
+    line-height: 0.5;
+    margin: 0;
+    -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+    padding: 0;
+  }
+  .btn-1:disabled {
+    cursor: default;
+  }
+  .btn-1:-moz-focusring {
+    outline: auto;
+  }
+  .btn-1 svg {
+    display: block;
+    vertical-align: middle;
+  }
+  .btn-1 [hidden] {
+    display: none;
+  }
+  .btn-1 {
+    border-radius: 99rem;
+    border-width: 2px;
+    padding: 0.8rem 3rem;
+  }
+  .btn-1:hover {
+    color: #999;
+  }
+  
+  .isidata {
+    text-align: center;
+  }

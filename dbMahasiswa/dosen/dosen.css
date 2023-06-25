@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000813;
+    color: white;
+}
+
+:root {
+    --one: #001C30;
+    --two: #176B87;
+    --three: #64CCC5;
+    --four: #DAFFFB;
+    --oren: #d7a464;
+}
+
+/* navbar */
+/* navbar kiri */
+.navbar {
+    display: flex;
+    /* background-color: #021631; */
+    padding: 17px 5%;
+    color: white;
+    box-shadow: 1px 1px 15px rgba(0, 204, 250, 0.3);
+}
+
+.navbar .navbarKiri {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.navbar .navbarKiri img {
+    width: 90px;
+}
+
+.navbar .navbarKiri p {
+    margin-top: 13px;
+    text-shadow: 1px 1px 2px #07d2ff5c;
+}
+
+/* navbarKanan */
+
+.navbarKanan a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+/* .navbarKanan a:nth-child(5) {
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 10%;
+} */
+
+.navbarKanan a:hover {
+    color: var(--oren);
+}
+
+/* homepage */
+.homepage {
+    display: flex;
+    padding: 50px 10%;
+    color: white;
+}
+
+.homepage .gambarfti {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.homepage .gambarfti img {
+    width: 35rem;
+}
+
+.homepage .gambarfti .garis {
+    width: 1px;
+    height: 100px;
+    background-color: white;
+    margin: auto;
+}
+
+/* tabel */
+table, th, td {
+    border: 1px solid #000813;
+    border-collapse: separate;
+  }
+  th, td {
+    background-color: #063e58;
+    padding: 10px;
+  }
+
+.container {
+    /* border: 1px solid white; */
+    margin-top: 40px;
+}
+
+.container table {
+    margin: auto;
+    ;
+}
+
+.container .tambahCari {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid white; */
+    padding-bottom: 30px;
+}
+
+.container .tambahCari a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #a2651b;
+    color: white;
+    border-radius: 20px;
+}
+
+.container .tambahCari form input {
+    padding: 5px;
+    background-color: #9eccd6;
+}
+
+.container .tambahCari form button {
+    padding: 5px;
+    color: white;
+    background-color: #07d2ff5c;
+}
+
+/* tombol tambah dan hapus */
+
+.container table tr td .ubah {
+    background-color: #036d2d;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 12px;
+    color: white;
+}
+
+.container table tr td .hapus {
+    background-color: #6d0303;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 12px;
+    color: white;
+}
+
